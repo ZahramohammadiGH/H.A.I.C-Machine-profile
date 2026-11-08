@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAIC | Machine Profile</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px 15px;
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+    color: #263445;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(135deg, #173b58, #287b83);
+    color: white;
+    padding: 30px 25px;
+    border-radius: 18px 18px 0 0;
+    text-align: center;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.header p {
+    margin-bottom: 0;
+    color: #e0edf0;
+}
+
+.content {
+    background: white;
+    padding: 25px;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 8px 25px #20304018;
+}
+
+.machine-name {
+    text-align: center;
+    margin: 5px 0 25px;
+}
+
+.machine-name h1 {
+    color: #173b58;
+    font-size: 25px;
+}
+
+.machine-name p {
+    color: #718096;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    color: #287b83;
+    border-bottom: 2px solid #e5edef;
+    padding-bottom: 10px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.item {
+    background: #f3f7f8;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.item span {
+    display: block;
+    color: #758493;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.item strong {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #758493;
+    font-size: 13px;
+}
+
+.footer a {
+    color: #287b83;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        padding: 25px 15px;
+    }
+
+    .content {
+        padding: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <div class="brand">H.A.I.C</div>
+        <p>Hazar Aluminum Industries Company</p>
+        <p>Industrial Machine Digital Profile</p>
+    </header>
+
+    <main class="content">
+
+        <div class="machine-name">
+            <h1>Automatic Cutting Machine</h1>
+            <p>Official Machine Identification Profile</p>
+        </div>
+
+        <section class="section">
+            <h2>Machine Identification</h2>
+            <div class="info-grid">
+                <div class="item">
+                    <span>Model</span>
+                    <strong>HAIC C9.6</strong>
+                </div>
+                <div class="item">
+                    <span>Serial Number</span>
+                    <strong>0002</strong>
+                </div>
+                <div class="item">
+                    <span>Manufacturer</span>
+                    <strong>HAIC</strong>
+                </div>
+                <div class="item">
+                    <span>Production Date</span>
+                    <strong>1405 / 2026</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Technical Specifications</h2>
+            <div class="info-grid">
+                <div class="item">
+                    <span>Main Motor</span>
+                    <strong>3 kW</strong>
+                </div>
+                <div class="item">
+                    <span>Servo Motor</span>
+                    <strong>LS - 2 kW</strong>
+                </div>
+                <div class="item">
+                    <span>Machine Weight</span>
+                    <strong>2500 kg</strong>
+                </div>
+                <div class="item">
+                    <span>Voltage</span>
+                    <strong>3PH AC 380V</strong>
+                </div>
+                <div class="item">
+                    <span>Frequency</span>
+                    <strong>50 Hz</strong>
+                </div>
+                <div class="item">
+                    <span>Rated Current</span>
+                    <strong>15 A</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Manufacturer Information</h2>
+            <div class="item">
+                <span>Company</span>
+                <strong>Hazar Aluminum Industries Company</strong>
+            </div>
+            <div class="item" style="margin-top:12px">
+                <span>Department</span>
+                <strong>Converting Maintenance Unit</strong>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>Designed for H.A.I.C</p>
+            <p>
+                <a href="https://haic.ir/" target="_blank">
+                    Official Website
+                </a>
+            </p>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
